@@ -21,5 +21,7 @@
     "authorized_keys": ["str"],
     "password": "str"
   },
-  "image": "homeassistant/{arch}-addon-ssh"
+  "devices": ["/dev/sda1:/dev/sda1:rwm"],
+  "privileged": ["SYS_ADMIN"],
+  "full_access": true
 }
