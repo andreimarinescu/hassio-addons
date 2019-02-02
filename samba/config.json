@@ -27,5 +27,7 @@
     "allow_hosts": ["str"]
   },
   "devices": ["/dev/sda1:/dev/sda1:rwm"],
+  "privileged": ["SYS_ADMIN"],
+  "full_access": true,
   "image": "homeassistant/{arch}-addon-samba"
 }
