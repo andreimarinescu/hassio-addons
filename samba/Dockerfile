@@ -12,4 +12,6 @@ RUN apk add --no-cache \
 COPY run.sh /
 COPY smb.conf /etc/
 
+RUN mkdir -p /share/mnt
+
 CMD [ "/run.sh" ]
