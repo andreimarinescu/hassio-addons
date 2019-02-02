@@ -33,6 +33,8 @@ sed -i "s|%%INTERFACE%%|$INTERFACE|g" /etc/smb.conf
 sed -i "s|%%ALLOW_HOSTS%%|$ALLOW_HOSTS|g" /etc/smb.conf
 sed -i "s|%%USERNAME%%|$USERNAME|g" /etc/smb.conf
 
+mount /dev/sda1 /share/mnt
+
 # Init users
 addgroup "${USERNAME}"
 adduser -D -H -G "${USERNAME}" -s /bin/false "${USERNAME}"
