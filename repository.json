@@ -1,5 +1,5 @@
 {
-    "name": "BestLibre addons repository",
-    "url": "https://github.com/bestlibre/hassio-addons",
+    "name": "Fork of official Hassio Addons repo",
+    "url": "https://github.com/andreimarinescu/hassio-addons",
     "maintainer": "andreimarinescu"
 }
